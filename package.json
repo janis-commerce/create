@@ -1,6 +1,6 @@
 {
   "name": "@janiscommerce/create",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Janiscommerce package initializer",
   "scripts": {
     "test": "export TEST_ENV=true; mocha --exit -R nyan --recursive tests/",
