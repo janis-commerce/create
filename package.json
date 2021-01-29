@@ -12,6 +12,10 @@
   "bin": {
     "create": "lib/index.js"
   },
+  "files": [
+    "lib/",
+    "template/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/janis-commerce/create.git"

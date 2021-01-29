@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.1] - 2021-01-29
+### Fixed
+- Added `files` to package.json to include the template in the package bundle
+
 ## [0.1.0] - 2021-01-29
 ### Added
 - Package creation
