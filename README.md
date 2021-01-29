@@ -38,7 +38,28 @@ Defines the name of the package to create. It will be automatically prefixed wit
 >
 > For example, `verbose` option can be passed as `--verbose` as a CLI argument or set as `JANISCOMMERCE_CREATE_VERBOSE=true` env var.
 
-### verbose (alias v)
+### description (alias d)
+
+Sets the package description both in the package.json and README.md
+
+**Example** `npx @janiscommerce/create cool-demo --description 'A cool package for a simple demo'`
+**Example** `npx @janiscommerce/create cool-demo -d 'A cool package for a simple demo'`
+
+### remote-type (alias r)
+
+Selects how will the git remote be configured. Options are `ssh` (default) or `http`.
+
+**Example** `npx @janiscommerce/create cool-demo --remote-type http`
+**Example** `npx @janiscommerce/create cool-demo -r http`
+
+### github-username (alias )
+
+You can set you github username in the remote so you don't have to type it each time (`http` remote type only).
+
+**Example** `npx @janiscommerce/create cool-demo --remote-type http --github-username janis-commerce-admin`
+**Example** `npx @janiscommerce/create cool-demo --remote-type http -u janis-commerce-admin`
+
+### verbose (alias V)
 
 Makes the whole process to print more detailed information, intended for debugging.
 
@@ -46,3 +67,8 @@ Makes the whole process to print more detailed information, intended for debuggi
 **Example** `npx @janiscommerce/create cool-demo -v`
 
 > This will print debugging information while running
+
+### Other options
+
+- `version` or `v`: Show the package version
+- `help` or `h`: Show the package help page
