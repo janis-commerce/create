@@ -1,0 +1,44 @@
+{
+  "name": "@janiscommerce/create",
+  "version": "0.1.0",
+  "description": "Janiscommerce package initializer",
+  "scripts": {
+    "test": "export TEST_ENV=true; mocha --exit -R nyan --recursive tests/",
+    "watch-test": "export TEST_ENV=true; mocha --exit -R nyan -w --recursive tests/",
+    "coverage-ci": "nyc --reporter=lcov --reporter=text-summary mocha --exit --recursive tests/",
+    "coverage": "nyc npm test",
+    "lint": "eslint ."
+  },
+  "bin": {
+    "create": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janis-commerce/create.git"
+  },
+  "author": "Janis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janis-commerce/api/issues"
+  },
+  "homepage": "https://github.com/janis-commerce/api#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.3.0",
+    "mocha": "^8.2.1",
+    "mock-require": "^3.0.3",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.1"
+  },
+  "dependencies": {
+    "envinfo": "^7.7.3",
+    "fs-extra": "^9.1.0",
+    "klaw": "^3.0.0",
+    "listr": "^0.14.3",
+    "lllog": "^1.1.2",
+    "lodash.startcase": "^4.4.0",
+    "yargs": "^16.2.0"
+  }
+}
