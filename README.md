@@ -1,7 +1,7 @@
 # :package: JanisCommerce Package Initializer
 
 ![Build Status](https://github.com/janis-commerce/create/workflows/Build%20Status/badge.svg)
-[![npm version](https://badge.fury.io/js/%40janiscommerce%2Fapi.svg)](https://www.npmjs.com/package/@janiscommerce/create)
+[![npm version](https://badge.fury.io/js/%40janiscommerce%2Fcreate.svg)](https://www.npmjs.com/package/@janiscommerce/create)
 <!-- [![Coverage Status](https://coveralls.io/repos/github/janis-commerce/create/badge.svg?branch=master)](https://coveralls.io/github/janis-commerce/create?branch=master) -->
 
 A package initializer for [@janiscommerce](https://www.npmjs.com/~janiscommerce) npm packages
