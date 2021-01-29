@@ -12,6 +12,6 @@
 npm install @janiscommerce/{{packageNameInKebabCase}}
 ```
 
-## :hammer_and_wrench: Usage
+## :hammer: Usage
 
 Pending documentation
