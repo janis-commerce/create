@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-01-30
+### Added
+- Command to enter the package directory in CLI is now printed and copied to the clipboard
+
 ## [0.1.3] - 2021-01-29
 ### Fixed
 - Template `.gitignore` renamed to avoid packing issues
